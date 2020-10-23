@@ -1,0 +1,124 @@
+*{
+  margin: unset;
+  padding: unset;
+  font-size: 16px;
+}
+  body{
+  font-family: sans-serif;
+  height: 100vh;
+  width: 100%;
+  background-color: #1c2023
+  
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.menuContainer{
+  display: flex;
+  flex-direction: row;
+  color:gray;
+  margin-top: 2rem;
+  justify-content: space-between;
+  padding: 2rem;
+  font-weight: 600;
+}
+
+.menuContainer .active{
+  color: #fff;
+}
+
+.due{
+  min-height: 15rem;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 2rem auto 1rem auto;
+  color: #fff;
+  border-radius: 17px;
+  background: #1c2023;
+  box-shadow: inset 6px 6px 12px #171a1c, 
+            inset -6px -6px 12px #21262a;
+}
+.text{
+  padding: 1rem;
+  color: gray;
+   margin-left: 5rem;
+}
+.amount{
+  font-size: x-large;
+  color: #fff;
+  margin-left: 8rem;
+ 
+}
+.warn{
+  display: flex;
+  flex-direction: row;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  color: gray;
+}
+
+.bankLogoContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}
+
+.divider{
+  margin: 1.5rem auto 0 auto;
+  width: 90%;
+  border-top: 1px solid #2d2d2d;
+}
+
+.logoOuterShadow{
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #1c2023;
+  box-shadow: inset 6px 6px 12px #171a1c, 
+            inset -6px -6px 12px #21262a;
+}
+
+.redText{
+  color: red;
+}
+
+.logo{
+  height: 2.8rem;
+  width: 2.8rem;
+  border: 1px solid rgba(255,255,255, 0.05);
+  border-radius: 50%;
+}
+
+.xy2{
+  color: gray;
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.xy1{
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn{    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 3rem;
+  width: 8rem;
+  border-radius: 36px;
+  background: #1c2023;
+  box-shadow: inset 3px 7px 3px #111416, inset -2px -2px 6px #272c30;
+}

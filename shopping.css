@@ -1,0 +1,276 @@
+*{
+  margin: unset;
+  padding: unset;
+  font-size: 16px;
+}
+body{
+  font-family: sans-serif;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  
+}
+.container{
+  display: grid;
+  grid-template-columns: 20% 50% 30%;
+  height: 100%;
+ 
+}
+.cateogories{
+  height: 100%;
+}
+.items{
+  border-radius: 2px;
+  margin: 2rem;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 400;
+  color: #727772;
+  text-align: left;
+}
+
+/* .items.logout{
+  position: absolut;
+  bottom: 0; */
+}
+
+.items.currentItem{
+  font-weight: 600;
+  color: black;
+}
+
+.middleContainer{
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+}
+
+.headerMenu{
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 1rem;
+}
+
+.menuItem{
+  cursor: pointer;
+  font-weight: 300;
+  color: #000
+}
+.menuItem.active{
+  font-weight: 600;
+}
+
+.searchInput{
+  padding: 0.6rem 0.6rem 0.6rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  width: 13rem;
+  box-shadow: 0 0 0.5rem 0 rgba(200,200,200, 0.2);
+  color: black;
+}
+.searchInput:focus{
+  outline: none;
+}
+
+.banner{
+  background-image: url("pexels-ylanite-koppens-934070.jpg");
+  height: 12rem;
+  background-size: contain;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  background-size: cover;
+}
+.bannerText{
+  font-size: 3rem;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.btn{
+  border-radius: 1rem;
+  width: 7rem;
+  height: 2rem;
+  background-color: #08409c;
+  font-weight: 500;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.offer{
+  padding: 2rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+.viewAll{
+  color: #727772;
+
+}
+.horizontal{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.suggestion{
+  width: 12rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.2rem 2rem 0.2rem;
+  box-shadow: 0 0 0.2rem 0 rgba(200,200,200, 0.2);
+}
+
+.productImage{
+  height: 14rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.6rem;
+}
+
+.suggestion .name{
+  margin-top: 0.4rem;
+  font-weight: 600;
+  margin-top: 0.4rem;
+  font-weight: 500;
+}
+
+.suggestion .cateogory{
+  margin-top: 0.2rem;
+  font-weight: 400;
+  color: #727772;
+  font-size: smaller;
+
+}
+.suggestion .cost{
+    margin-top: 5.2px;
+
+
+}
+
+.rightContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.rightContainer .imgContainer{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.rightContainer .profilePhoto{
+  height: 3rem;
+}
+
+.cartContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cart{
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.cartInfo{
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.product{
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 0.2rem 0 rgba(200,200,200, 0.2);
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  border-radius: 0.6rem;
+  padding-right: 0.2rem;
+}
+
+.product:hover{
+  transform: translateX(1rem);
+  box-shadow: 0 0 0.5rem 0.5rem rgba(200,200,200, 0.3);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.product .pImage{
+  height: 4rem;
+  width: 4rem;
+  object-fit: cover;
+  border-radius: 0.6rem;
+}
+
+.pName{
+  font-weight: 300;
+}
+
+.pQuantity{
+  color: #727772;
+  font-weight: 600;
+}
+
+.pCost{
+  font-weight: 700;
+}
+.divider{
+  margin-top: 2rem;
+  border: 1px dashed #727272;
+}
+.summary{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.summary .Price{
+  margin-top: 1rem;
+   color: #b7b8b9;
+   font-size: small;
+}
+.set{
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.summary .total{
+  margin-top: 1rem;
+  font-size: small;
+}
+.subTotal{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  font-weight: 600;
+  justify-content: space-between;
+}
+.checkOut{
+  height: 3rem;
+  margin-top: 5rem;
+  width: 14rem;
+  border-radius: 3rem;
+  font-weight: 500;
+  font-size: larger;
+  background-color: #1a1a3e;
+  color: #fff;
+  margin-left: 2rem;
+
+}

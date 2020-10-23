@@ -1,0 +1,36 @@
+*{
+  margin: unset;
+  padding: unset;
+}
+
+body{
+  background: #383838;
+  padding: 2rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.card{
+  padding: 2rem 0;
+  width: 12rem;
+  border-radius: 0.8rem;
+  text-align: center;
+  background: #383838;
+  box-shadow:  20px 20px 30px #303030, 
+             -20px -20px 30px #404040;
+  margin: 4rem;
+}
+
+.cardsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
